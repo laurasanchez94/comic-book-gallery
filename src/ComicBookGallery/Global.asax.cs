@@ -9,6 +9,7 @@ namespace ComicBookGallery
 {
     public class MvcApplication : System.Web.HttpApplication
     {
+        //this method is called once and only once 
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
